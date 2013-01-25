@@ -30,7 +30,7 @@ for i in files:
 
 
 #ªÒ»°IP
-ips = os.popen('ipconfig | findstr "IP Address" |findstr "IPv4"|findstr "10.48"').read()
+ips = os.popen('ipconfig | findstr "IP Address" |findstr "10.48"').read()
 #≈‰÷√hostname
 hostname = 'GAME_'+ips.split(':')[1].split('.')[3]
 
